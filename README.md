@@ -1,0 +1,1 @@
+Esse projeto me foi entregue todo realizado em forma de tabela, feito em um único arquivo com o css aplicado no head. Para fins didáticos, eu o formatei por inteiro para um layout padrão web.
