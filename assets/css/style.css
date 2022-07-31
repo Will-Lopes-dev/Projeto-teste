@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Roboto, sans-serif;
+}
+
+
+/* container definindo um max. de tamanho e resposivo */
+.container {
+    max-width: 700px;
+    /* margin: 0 50px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-max-width {
+    min-width: 380px;
+}
+
+
+.icatu-logo {
+    max-width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+/* para espaços entre parágrafos */
+.espaco-texto {
+    margin: 30px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formatação geral */
+p {
+    text-align: justify;
+    margin: auto 40px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+/* essa class é para aplicar em tag <spna></span> em caso deixar em negrito */
+.bold {
+    font-weight: bold;
+}
+
+#img-bolinha {
+    max-width: 15px;
+    margin: 40px auto;
+}
+
+
+/* div envolvendo as divs com imagens de cards */
+#box-card {
+    margin: 25px;
+}
+
+/* card contendo as imagens */
+.card img {
+    max-width: 180px;
+    margin: 10px;
+}
+
+
+#img-botao {
+    max-width: 300px;
+    margin-bottom: 25px;
+}
+
+#img-botao:hover {
+    box-shadow: 0px 0px 1px;
+    border-radius: 10px;
+}
+
+
+
+/* estilização do footer */
+#footer-box-blue {
+    background-color: #1B3157;
+    margin: 25px 0;
+    color: #fff;
+    padding: 25px 30px;
+}
+
+footer img {
+    max-width: 23px;
+    display: inline-block;
+}
+
+.img-likeEneg {
+    margin-left: -25px;
+}
+
+#redes-sociais img {
+    margin: 20px 5px;
+    text-align: center;
+}
+
+
+#link-site a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-color p {
+    color: #808080;
+}
+
+#info-dev {
+    font-size: 12px;
+}
+
+#info-dev a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #808080;
+    margin-left: 15px;
+}
+
+#info-dev :hover {
+    color: #000;
+    transition: 1.5s;
+}
+
+img {
+    width: 100%
+}
+
+@media (max-width: 300px) {
+    #redes-sociais img {
+        margin: 20px 1px;
+    }
+}
